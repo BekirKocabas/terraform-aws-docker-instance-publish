@@ -1,0 +1,27 @@
+# Terraform files
+.terraform
+*.tfstate
+*.tfstate.*
+*.tfplan
+
+# Local .terraform directories
+**/.terraform/*
+
+# Crash log files
+crash.log
+crash.*.log
+# Ignore any .terraformrc or terraform.rc files
+.terraformrc
+terraform.rc
+
+# Ignore any .tfvars files that are automatically generated
+*.auto.tfvars
+*.auto.tfvars.json
+*.tfvars
+*.tfvars.json
+
+# Ignore override files as they are usually used to override resources locally and not checked in
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
